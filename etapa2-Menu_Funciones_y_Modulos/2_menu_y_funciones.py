@@ -13,9 +13,9 @@ def opcion3():
     print("Eligio la opcion 3 ")
     pass
 
-def opcion4(valor):
+def opcion4(p1,p2, p3):
     # Código de la opción 4
-    print(f"Eligio la opcion 4: Hola {valor}!!!")
+    print(f"Eligio la opcion 4: Hola {p1} como estas? {p2}. {p3}!!!")
     pass
 
 def menu():
@@ -37,7 +37,8 @@ def menu():
             opcion3()
         elif opcion == "4":
             variableNombre = input('Ingresa tu nombre: ')
-            opcion4(variableNombre)
+            variableEstado = input('Ingresa tu estado: ')
+            opcion4(variableNombre, variableEstado, 8)
         elif opcion == "5":
             print("Gracias por usar el programa")
             break

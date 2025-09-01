@@ -34,5 +34,5 @@ def menu():
             print("Opción no válida. Intente nuevamente.")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":#Menu modular
     menu()

@@ -16,6 +16,7 @@ mediante su importación y posterior invocación, por ejemplo:
 
 def opcion1():
     # Código de la opción 1
+    print("Estoy en el archivo modulo_mini.py")
     print("Eligio la opcion 1 ")
     pass
 
@@ -34,3 +35,9 @@ def opcion4(valor):
     # Código de la opción 4
     print(f"Eligio la opcion 4: Hola {valor}!!!")
     pass
+
+def funcion_no_expuesta():
+    print("Funcion que no debe invocarse")
+
+if __name__ == "__main__":#Modulo mini
+    funcion_no_expuesta()

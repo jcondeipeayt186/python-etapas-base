@@ -35,7 +35,7 @@ if __name__ == "__main__":
     print("--------------------------------")
     print("Mostrar las bases de datos")
     print("--------------------------------")
-    cursor.execute("SHOW DATABASES")
+    cursor.execute("SHOW DATABASES")#Esto es sql
 
     for x in cursor:
         print(x)

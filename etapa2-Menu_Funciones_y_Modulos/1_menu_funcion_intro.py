@@ -9,7 +9,7 @@ def funcion1():
         
         opcion = input("Elija una opción: ")
         
-        if opcion == "1":
+        if opcion == 1:
             print("Eligio la opcion 1 ")
         elif opcion == "2":
             print("Eligio la opcion 2 ")
@@ -23,6 +23,8 @@ def funcion1():
             break
         else: 
             print("Opción no válida. Intente nuevamente.")
+
+
 
 
 
